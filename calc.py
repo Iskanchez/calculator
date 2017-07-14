@@ -48,7 +48,7 @@ def equals():
     global str1
     try:
         res = str(eval(str1))
-    except (SyntaxError, NameError:
+    except (SyntaxError, NameError):
         txt_input.set("Invalid Input")
         str1 = ""
     except ZeroDivisionError:
